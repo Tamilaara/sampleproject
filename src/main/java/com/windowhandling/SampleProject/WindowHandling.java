@@ -10,9 +10,9 @@ public class WindowHandling {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver =  new ChromeDriver();
 		driver.get("httpa://www.amazon.com");
-		String title = driver.getTitle();
+		String titlename = driver.getTitle();
 		String url = driver.getCurrentUrl();
-		System.out.println(title);
+		System.out.println(titlename);
 		System.out.println(url);
 		
 	}
